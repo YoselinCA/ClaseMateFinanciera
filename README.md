@@ -26,7 +26,7 @@ valorActual=1000
 tasaPeriodo=0.02
 nPeriodos=7
 # Calculamos el Valor Futuro:
-valorFuturo=valorFinalSimple(VA=valorActual,r=tasaPeriodo,t=nPeriodos)
+valorFuturo=valorFinalSimple(VA=valorActual,r=TasaInterésMensual,t=Tiempo)
 # Imprimimos el resultado:
 valorFuturo
 ```
@@ -45,7 +45,7 @@ valorFuturo=1140
 tasaPeriodo=0.02
 nPeriodos=7
 # Calculamos el Valor Presente Simple:
-valorPresenteSimple=valorPresenteSimple(VF=ValorFuturo,r=tasaPeriodo,t=nPeriodos)
+valorPresenteSimple=valorPresenteSimple(VF=ValorFuturo,r=TasaInterésSimple,t=Tiempo)
 # Imprimimos el resultado:
 valorPresenteSimple
 ```
@@ -63,7 +63,7 @@ valorFuturo=1140
 ValorActual=1000
 nPeriodos=7
 # Calculamos Tasa de Interés Mensual:
-TasaInterésMensual=TasaInterésMensual(VF=ValorFuturo,VA=ValorActual,t=nPeriodos)
+TasaInterésMensual=TasaInterésMensual(VF=ValorFuturo,VA=ValorActual,t=Tiempo)
 # Imprimimos el resultado:
 tasaInterésMensual
 ```
@@ -81,6 +81,6 @@ valorFuturo=1140
 ValorActual=1000
 TasaPeriodo=0.02
 # Calculamos Periodo de Tiempo:
-Tiempo=Tiempo(VF=ValorFuturo,VA=ValorActual,r=tasaPeriodo)
+Tiempo=Tiempo(VF=ValorFuturo,VA=ValorActual,r=TasaInterésSimple)
 # Imprimimos el resultado:
 Tiempo
