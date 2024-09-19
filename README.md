@@ -26,7 +26,7 @@ valorActual=1000
 TasaInteresSimple=0.02
 Tiempo=7
 # Calculamos el Valor Futuro:
-valorFuturo=valorFuturo(VA=valorActual,r=TasaInterésMensual,t=Tiempo)
+valorFuturo=valorFinalSimple(VA=valorActual,r=TasaInterésMensual,t=Tiempo)
 # Imprimimos el resultado:
 valorFuturo
 ```
