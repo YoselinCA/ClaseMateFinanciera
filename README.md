@@ -7,7 +7,7 @@ En este repositorio, se agrupan las funciones y actividades informáticas realiz
 Con el siguiente código, puede usted cargar las funciones relativas a los cálculos de interés simple:
 
 ```{r}
-source("https://raw.githubusercontent.com/YoselinCA/ClaseMateFinanciera/refs/heads/main/FormulasInteresSimple.R")
+source("https://raw.githubusercontent.com/YoselinCA/ClaseMateFinanciera/refs/heads/main/FormulasInteresSimple%20(1).R")
 ```
 A continuación se dan ejemplos del uso de las formulas correspondientes
 
