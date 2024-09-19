@@ -63,9 +63,9 @@ ValorFuturo=1140
 ValorActual=1000
 Tiempo=7
 # Calculamos Tasa de Interés Mensual:
-TasaInterésMensual=TasaInterésSimple(VF=ValorFuturo,VA=ValorActual,t=Tiempo)
+TasaInterésSimple=TasaInterésSimple(VF=ValorFuturo,VA=ValorActual,t=Tiempo)
 # Imprimimos el resultado:
-tasaInterésMensual
+tasaInterésSimple
 ```
 ### Cálculo de Periodo de Tiempo
 
