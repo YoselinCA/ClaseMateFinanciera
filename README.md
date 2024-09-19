@@ -23,10 +23,10 @@ Se realizan los cálculos:
 ```{r}
 # Creamos objetos con los valores de entrada:
 valorActual=1000
-tasaPeriodo=0.02
-nPeriodos=7
+TasaInteresSimple=0.02
+Tiempo=7
 # Calculamos el Valor Futuro:
-valorFuturo=valorFinalSimple(VA=valorActual,r=TasaInterésMensual,t=Tiempo)
+valorFuturo=valorFuturo(VA=valorActual,r=TasaInterésMensual,t=Tiempo)
 # Imprimimos el resultado:
 valorFuturo
 ```
