@@ -44,10 +44,10 @@ Se realizan los cálculos:
 valorFuturo=1140
 tasaPeriodo=0.02
 nPeriodos=7
-# Calculamos el Valor Presente:
-valorPresente=valorPresente(VF=ValorFuturo,r=tasaPeriodo,t=nPeriodos)
+# Calculamos el Valor Presente Simple:
+valorPresenteSimple=valorPresenteSimple(VF=ValorFuturo,r=tasaPeriodo,t=nPeriodos)
 # Imprimimos el resultado:
-valorPresente
+valorPresenteSimple
 ```
 ### Cálculo de Tasa de Interés Mensual
 
@@ -81,6 +81,6 @@ valorFuturo=1140
 ValorActual=1000
 TasaPeriodo=0.02
 # Calculamos Periodo de Tiempo:
-PeriodoTiempo=PeriodoTiempo(VF=ValorFuturo,VA=ValorActual,r=tasaPeriodo)
+Tiempo=Tiempo(VF=ValorFuturo,VA=ValorActual,r=tasaPeriodo)
 # Imprimimos el resultado:
-PeriodoTiempo
+Tiempo
