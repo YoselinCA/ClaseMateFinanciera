@@ -41,9 +41,9 @@ $t$=7 meses
 Se realizan los cálculos:
 ```{r}
 # Creamos objetos con los valores de entrada:
-valorFuturo=1140
-tasaPeriodo=0.02
-nPeriodos=7
+ValorFuturo=1140
+TasaInterésSimple=0.02
+Tiempo=7
 # Calculamos el Valor Presente Simple:
 valorPresenteSimple=valorPresenteSimple(VF=ValorFuturo,r=TasaInterésSimple,t=Tiempo)
 # Imprimimos el resultado:
