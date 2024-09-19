@@ -59,9 +59,9 @@ $t$=7 meses
 Se realizan los cálculos:
 ```{r}
 # Creamos objetos con los valores de entrada:
-valorFuturo=1140
+ValorFuturo=1140
 ValorActual=1000
-nPeriodos=7
+Tiempo=7
 # Calculamos Tasa de Interés Mensual:
 TasaInterésMensual=TasaInterésMensual(VF=ValorFuturo,VA=ValorActual,t=Tiempo)
 # Imprimimos el resultado:
@@ -77,9 +77,9 @@ $r$=2.00% mensual
 Se realizan los cálculos:
 ```{r}
 # Creamos objetos con los valores de entrada:
-valorFuturo=1140
+ValorFuturo=1140
 ValorActual=1000
-TasaPeriodo=0.02
+TasaInterésSimple=0.02
 # Calculamos Periodo de Tiempo:
 Tiempo=Tiempo(VF=ValorFuturo,VA=ValorActual,r=TasaInterésSimple)
 # Imprimimos el resultado:
