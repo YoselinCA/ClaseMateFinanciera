@@ -7,7 +7,7 @@ En este repositorio, se agrupan las funciones y actividades informáticas realiz
 Con el siguiente código, puede usted cargar las funciones relativas a los cálculos de interés simple:
 
 ```{r}
-source("https://raw.githubusercontent.com/YoselinCA/ClaseMateFinanciera/refs/heads/main/FormulasInteresSimple%20(1).R")
+source("https://raw.githubusercontent.com/YoselinCA/ClaseMateFinanciera/refs/heads/main/FormulasInteresSimple%20(2).R")
 ```
 A continuación se dan ejemplos del uso de las formulas correspondientes
 
@@ -30,3 +30,57 @@ valorFuturo=valorFinalSimple(VA=valorActual,r=tasaPeriodo,t=nPeriodos)
 # Imprimimos el resultado:
 valorFuturo
 ```
+### Cálculo del Valor Actual o Valor Presente
+
+Para ilustrar el ejemplo, se tiene el siguiente ejercicio:
+$VF$=$1,140.00
+$i$=24.00% anualizado
+$r$=2.00% mensual
+$t$=7 meses
+
+Se realizan los cálculos:
+```{r}
+# Creamos objetos con los valores de entrada:
+valorFuturo=1140
+tasaPeriodo=0.02
+nPeriodos=7
+# Calculamos el Valor Presente:
+valorPresente=valorPresente(VF=ValorFuturo,r=tasaPeriodo,t=nPeriodos)
+# Imprimimos el resultado:
+valorPresente
+```
+### Cálculo de Tasa de Interés Mensual
+
+Para ilustrar el ejemplo, se tiene el siguiente ejercicio:
+$VF$=$1,140.00
+$VA$=$1000.00 
+$t$=7 meses
+
+Se realizan los cálculos:
+```{r}
+# Creamos objetos con los valores de entrada:
+valorFuturo=1140
+ValorActual=1000
+nPeriodos=7
+# Calculamos Tasa de Interés Mensual:
+TasaInterésMensual=TasaInterésMensual(VF=ValorFuturo,VA=ValorActual,t=nPeriodos)
+# Imprimimos el resultado:
+tasaInterésMensual
+```
+### Cálculo de Periodo de Tiempo
+
+Para ilustrar el ejemplo, se tiene el siguiente ejercicio:
+$VF$=$1,140.00
+$VA$=$1000.00 
+$r$=2.00% mensual
+
+Se realizan los cálculos:
+```{r}
+# Creamos objetos con los valores de entrada:
+valorFuturo=1140
+ValorActual=1000
+TasaPeriodo=0.02
+# Calculamos Periodo de Tiempo:
+PeriodoTiempo=PeriodoTiempo(VF=ValorFuturo,VA=ValorActual,r=tasaPeriodo)
+# Imprimimos el resultado:
+PeriodoTiempo
